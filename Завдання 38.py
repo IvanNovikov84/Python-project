@@ -1,5 +1,5 @@
                                 #Завдання 38. ООП. Клас телефон.
-                                #Доброго раночку
+                                #Доброго раночку!
 class Phone:
     def __init__(self, number, model, weight):
         self.number=number
