@@ -13,7 +13,8 @@ class Phone:
     def Three (self, number, model, weight):
         print("Номер телефону:",number, "Модель:", model, "Вага:",  weight)
 
-    def Two (self, number, model):
+    @classmethod
+    def Two (cls, number, model):
         print("Номер телефону:",number, "Модель:", model)
 
     def NoneP (self):
